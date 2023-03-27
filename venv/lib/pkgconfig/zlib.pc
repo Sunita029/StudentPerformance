@@ -1,0 +1,13 @@
+prefix=/home/sunita/Documents/MYPythonFILES/MLProjects/StudentPerformance_ML/venv
+exec_prefix=/home/sunita/Documents/MYPythonFILES/MLProjects/StudentPerformance_ML/venv
+libdir=/home/sunita/Documents/MYPythonFILES/MLProjects/StudentPerformance_ML/venv/lib
+sharedlibdir=/home/sunita/Documents/MYPythonFILES/MLProjects/StudentPerformance_ML/venv/lib
+includedir=/home/sunita/Documents/MYPythonFILES/MLProjects/StudentPerformance_ML/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
